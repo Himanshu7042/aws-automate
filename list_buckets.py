@@ -11,7 +11,7 @@ for bucket in response['Buckets']:
     print(f"- {bucket['Name']}")
 
 # Specify your bucket name
-bucket_name = 'my-static-site-22025'
+bucket_name = 'aws-assign0'
 
 # Count objects in the specified bucket
 object_list = s3.list_objects_v2(Bucket=bucket_name)
